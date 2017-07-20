@@ -101,6 +101,7 @@ class TagManager
             return array();
         }
         $names = array_unique($names);
+        $names = array_filter($names, 'strlen');
 
         $tags = $this->fetchTags($names);
         $missingNames = $this->computeMissingNames($names, $tags);
