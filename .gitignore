@@ -4,3 +4,9 @@ autoload.php
 
 cov/
 vendor/doctrine/
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/php.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/DoctrineExtensions-Taggable.iml
